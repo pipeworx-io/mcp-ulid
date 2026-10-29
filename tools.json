@@ -1,0 +1,31 @@
+[
+  {
+    "name": "generate_ulid",
+    "description": "Generate one or more ULIDs (time-sortable unique IDs). Each is a 26-char Crockford Base32 string whose first 10 chars encode the creation time.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "number",
+          "description": "How many to generate (1-100, default 1)."
+        }
+      }
+    }
+  },
+  {
+    "name": "parse_ulid",
+    "description": "Validate a ULID and extract its embedded creation timestamp (ISO date + epoch ms) and the random component. Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ulid": {
+          "type": "string",
+          "description": "A 26-character ULID."
+        }
+      },
+      "required": [
+        "ulid"
+      ]
+    }
+  }
+]
