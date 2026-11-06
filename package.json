@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ulid",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ULID MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ulid",
     "gatewaySlug": "ulid",
-    "sourceHash": "v1-9980e3e4efb26019653328718e9778439b4a1996fc019e3ddc418bf653915892",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-41444d75fca34052aab348f5b57984a0535f1ab81851cdc7bdef10d003f36a41",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
